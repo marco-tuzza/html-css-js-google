@@ -52,6 +52,7 @@ header {
 
 .header-right img {
     height: 30px;
+    width: 30px;
     border-radius: 50%;
 }
 
@@ -64,9 +65,13 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     height: 500px;
-    margin-top: 90px;
+    margin-top: 40px;
+}
+
+main div {
+    margin-bottom: 30px;
 }
 
 .search-bar {
@@ -109,3 +114,39 @@ main {
 .english span, .english a {
     font-size: 13px;
 }
+/* /main */
+/* footer */
+footer {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+.footer-bottom, .footer-top {
+    padding: 0px 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e4e4e4;
+}
+
+.footer-top span {
+    line-height: 40px
+}
+
+.footer-bottom ul {
+    margin-bottom: 0px
+}
+
+.footer-bottom ul li {
+    line-height: 40px;
+}
+
+.footer-bottom ul li a {
+    color: #000;
+    opacity: 0.75;
+    font-size: 14px;
+    padding-right: 10px;
+}
+/* /footer */
